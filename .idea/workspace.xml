@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b40545b-71d6-43a4-a9b8-14dd6b07a9d3" name="Changes" comment="" />
+    <list default="true" id="3b40545b-71d6-43a4-a9b8-14dd6b07a9d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/my-mall/my-mall",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714923665226</updated>
       <workItem from="1714923666440" duration="949000" />
+      <workItem from="1715010254822" duration="29000" />
+      <workItem from="1715010330913" duration="44000" />
     </task>
     <servers />
   </component>
