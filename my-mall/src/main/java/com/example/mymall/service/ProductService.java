@@ -1,5 +1,6 @@
 package com.example.mymall.service;
 
+import com.example.mymall.constant.ProductCategory;
 import com.example.mymall.dto.ProductResquest;
 import com.example.mymall.model.Product;
 
@@ -7,7 +8,7 @@ import java.util.List;
 
 public interface ProductService {
 
-    List<Product> getProducts();
+    List<Product> getProducts(ProductCategory category,String search);
 
     Product getProductById(Integer productId);
 

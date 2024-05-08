@@ -1,5 +1,6 @@
 package com.example.mymall.service.impl;
 
+import com.example.mymall.constant.ProductCategory;
 import com.example.mymall.dao.ProductDao;
 import com.example.mymall.dto.ProductResquest;
 import com.example.mymall.model.Product;
@@ -16,8 +17,8 @@ public class ProductServiceImpl implements ProductService {
     ProductDao productDao;
 
     @Override
-    public List<Product> getProducts() {
-        return productDao.getProducts();
+    public List<Product> getProducts(ProductCategory category,String search) {
+        return productDao.getProducts(category,search);
     }
 
     @Override
