@@ -1,5 +1,6 @@
 package com.example.mymall.controller;
 
+import com.example.mymall.dto.UserLoginRequest;
 import com.example.mymall.dto.UserRegisterRequest;
 import com.example.mymall.model.User;
 import com.example.mymall.service.UserService;
@@ -26,5 +27,12 @@ public class UserController {
         User user = userService.getById(userId);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(user);
+    }
+
+    @PostMapping("/users/login")
+    public ResponseEntity<User> login(@RequestBody @Valid UserLoginRequest userLoginRequest){
+        User user = userService.login(userLoginRequest);
+
+        return ResponseEntity.status(HttpStatus.OK).body(user);
     }
 }
